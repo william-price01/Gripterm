@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "new-cloud-backend"
+version = "0.1.0"
+description = ""
+authors = ["William Price <82848178+william-price01@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+griptape = { git = "git@github.com:griptape-ai/griptape.git", branch = "dev"}
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+auth0-python = "^4.7.1"
+websockets = "^13.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

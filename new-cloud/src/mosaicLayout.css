@@ -1,0 +1,49 @@
+.mosaic {
+    background-color: #293742;
+}
+
+.mosaic-window {
+    box-shadow:
+        0 0 0 1px rgba(16, 22, 26, 0.2),
+        0 1px 1px rgba(16, 22, 26, 0.4);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.mosaic-window-toolbar {
+    height: 30px;
+    background-color: #30404d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.mosaic-window-title {
+    color: black;
+    font-size: 14px;
+}
+
+.mosaic-window-body {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 30px);
+}
+
+.mosaic-window .mosaic-window-controls {
+    display: flex;
+    align-items: center;
+}
+
+.mosaic-window .mosaic-window-controls .bp3-button {
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.mosaic-split.-row {
+    background-color: #30404d;
+}
+
+.mosaic-split.-column {
+    background-color: #30404d;
+}
